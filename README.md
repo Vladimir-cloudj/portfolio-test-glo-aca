@@ -1,2 +1,2 @@
 # portfolio-test-glo-aca
- test-glo-academy
+ very simple test project from glo-academy
