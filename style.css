@@ -49,7 +49,7 @@ a {
 .container {}
 
 .welcome-container {
-	display:flex;
+	display: flex;
 	justify-content: flex-start;
 	margin-top: 70px;
 	margin-bottom: 70px;
@@ -82,7 +82,8 @@ a {
 	margin-top: 8px;
 	margin-bottom: 24px;
 }
-.text-subtitle span{
+
+.text-subtitle span {
 	color: #BF7506;
 }
 
@@ -109,6 +110,7 @@ a {
 	display: flex;
 	align-items: center;
 	gap: 4px;
+	cursor: pointer;
 	border-bottom: 2px solid #BF7506;
 }
 
@@ -123,3 +125,83 @@ a {
 .project-container {}
 
 /*  */
+/*  */
+.projects {}
+
+.container {}
+
+.projects-container {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 100px;
+}
+
+.projects-title {
+	font-size: 48px;
+	line-height: 125%;
+	letter-spacing: -0.03em;
+	color: #BF7506;
+}
+
+.projects-wrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 72px;
+}
+
+.project-card {
+	max-width: 400px;
+}
+
+.project-img {}
+
+.project-card__title {
+	font-size: 24px;
+	line-height: 135%;
+	letter-spacing: -0.02em;
+	color: #BF7506;
+}
+
+.project-tags {
+	list-style: none;
+	display: flex;
+	gap: 4px;
+	padding-left: 0;
+}
+
+.project-tag {
+	align-items: flex-start;
+	padding: 5px 8px 4px;
+	border: 1px solid #DD9C3C;
+	border-radius: 4px;
+}
+
+.project-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #211B12;
+}
+
+.project-btns {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.project-btn {
+	display: flex;
+	align-items: center;
+	padding: 7px 8px;
+	text-decoration: none;
+	gap: 4px;
+	border-bottom: 2px solid #DD9C3C;
+}
+
+.project-btn p {
+	margin: 0;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: #211B12;
+}
