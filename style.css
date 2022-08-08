@@ -545,7 +545,6 @@ a {
 }
 
 @media (max-width: 435px) {
-
 	.form {
 		display: flex;
 		flex-direction: column;
