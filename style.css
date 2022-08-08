@@ -2,6 +2,7 @@
 
 * {
 	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
 }
 
 a {
@@ -118,7 +119,9 @@ a {
 	padding: 1px 6px;
 }
 
-.welcome-cv-span {}
+.welcome-cv-span {
+	color: #211B12;
+}
 
 .projects {}
 
@@ -271,9 +274,14 @@ a {
 
 .container {}
 
-.skills-container {}
+.skills-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
 
 .skills-title {
+	margin-bottom: 0;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 135%;
@@ -284,3 +292,61 @@ a {
 .project-tags {}
 
 .project-tag {}
+
+/*  */
+/*  */
+.feedback {
+	padding: 80px 0 160px;
+}
+.feedback-container {
+	max-width: 435px;
+	margin: auto;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+}
+.feedback-title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 125%;
+	letter-spacing: -0.03em;
+	color: #211B12;
+}
+
+.input-group {
+	position: relative;
+	padding-top: 9px;
+	margin-bottom: 24px;
+}
+
+.input-label {
+	position: absolute;
+	top: 0;
+	left: 16px;
+	padding: 0 8px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	color: #83807C;
+	background: #fff;
+}
+
+.input {
+	border: 3px solid #E0DEDC;
+	border-radius: 4px;
+	height: 56px;
+	width: 435px;
+}
+.textarea {
+	min-height: 140px;
+}
+.button-group {
+	display: flex;
+	justify-content: flex-end;
+}
+.feedback-btn {
+	padding-bottom: 7px;
+	border: none;
+	border-bottom: 2px solid #BF7506;
+	background-color: #fff;
+}
