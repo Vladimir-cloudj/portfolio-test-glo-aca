@@ -536,6 +536,10 @@ a {
 		display: flex;
 		text-align: center;
 	}
+	.project-tags {
+		margin: 0 -5px;
+		justify-content: center;
+	}
 	.feedback-title {
 		text-align: center;
 	}
@@ -545,6 +549,9 @@ a {
 }
 
 @media (max-width: 435px) {
+	.welcome-text {
+		margin-left: 0;
+	}
 	.form {
 		display: flex;
 		flex-direction: column;
@@ -558,4 +565,11 @@ a {
 	.input-label {
 		left: 30px;
 	}
+}
+
+@media (max-width: 380px) {
+ .nav-list {
+	flex-direction: column;
+	gap: 5px;
+ }
 }

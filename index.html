@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<div class="wrapper">
+	<!-- <div class="wrapper"> -->
 		<header class="header">
 			<div class="container header-container">
 				<a href="##" class="header-logo">
@@ -22,14 +22,14 @@
 						<li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
 						<li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
 						<li class="nav-item"><a href="#about_me" class="nav-link">Обо мне</a></li>
-						<li class="nav-item"><a href="#links" class="nav-link">Связаться</a></li>
+						<li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
 					</ul>
 				</div>
 			</div>
 		</header>
 		<!--  -->
 		<main class="main">
-			<section class="welcome">
+			<section class="welcome" id="main">
 				<div class="container welcome-container">
 					<div class="welcome-img">
 						<img src="img/main.png" alt="welcome-photo">
@@ -58,7 +58,7 @@
 									<img src="img/youtube.svg" alt="youtube" class="text-social__img">
 								</a>
 							</div>
-							<a href="##" class="welcome-cv" download>
+							<a href="cv.pdf" class="welcome-cv" download>
 								<img src="img/download.svg" alt="download" class="welcome-cv-img">
 								<span class="welcome-cv-span">Скачать резюме</span>
 							</a>
@@ -66,7 +66,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="projects">
+			<section class="projects" id="projects">
 				<div class="container projects-container">
 					<h2 class="projects-title">Последние проекты</h2>
 					<div class="projects-wrapper">
@@ -120,7 +120,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="developer">
+			<section class="developer" id="about_me">
 				<div class="container developer-container">
 					<img src="img/photo.jpg" alt="photo-developer" class="developer-photo">
 					<div class="developer-about">
@@ -135,7 +135,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="skills">
+			<section class="skills" id="">
 				<div class="container skills-container">
 					<h2 class="skills-title">Работаю с разными языками и инструментами</h2>
 					<ul class="project-tags">
@@ -151,7 +151,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="feedback">
+			<section class="feedback" id="feedback">
 				<div class="hand">
 					<img src="img/hand.png" alt="hand" class="feedback-hand">
 				</div>
@@ -160,15 +160,15 @@
 					<form action="#" class="form">
 						<div class="input-group">
 							<label class="input-label" for="username">Имя</label>
-							<input id="username" type="text" class="input">
+							<input id="username" name="client_name" type="text" class="input">
 						</div>
 						<div class="input-group">
 							<label class="input-label" for="email">Email</label>
-							<input id="email" type="text" class="input">
+							<input id="email" name="client_email" type="text" class="input">
 						</div>
 						<div class="input-group">
 							<label class="input-label" for="userMessage">Сообщение</label>
-							<textarea name="" id="userMessage" cols="30" rows="20" class="input textarea"></textarea>
+							<textarea id="userMessage" name="client_message" cols="30" rows="20" class="input textarea"></textarea>
 						</div>
 						<div class="button-group">
 							<button type="submit" class="welcome-cv feedback-btn" download>
@@ -185,7 +185,8 @@
 				<p class="footer-text">Сделано с любовью в Казани</p>
 			</div>
 		</footer>
-	</div>
+	<!-- </div> -->
+<script src="js/app.js"></script>
 </body>
 
 </html>
